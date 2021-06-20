@@ -8,7 +8,14 @@ body {
 	margin: 0 auto;
 	padding: 0.5em;
 }
-
+.gallery {
+  	margin: 0.2em;
+  	float: left;
+}
+.gallery img {
+  	width: auto;
+  	height: 15em;
+}
 .image {
   display: block;
   margin-left: auto;
