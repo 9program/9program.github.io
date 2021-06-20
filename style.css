@@ -1,0 +1,47 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+body {
+	font-family: "Courier New", monospace;
+	max-width: 65em;
+	margin: 0 auto;
+	padding: 0.5em;
+}
+
+.gallery {
+  	margin: 0.2em;
+  	float: left;
+}
+.gallery img {
+  	width: auto;
+  	height: 15em;
+}
+.head {
+	text-align: left;
+}
+.menu { 
+	text-align: center;
+	padding-bottom: 0.5em;
+}
+.menu ul {
+	padding: 0;
+	list-style-type: none;
+}
+.menu li {
+	 padding-left: 0.5em;
+	 padding-right: 0.5em;
+         display:inline; 
+}
+
+@media (prefers-color-scheme: dark) {
+body {
+	background-color: #0C0C0C;
+	color: white;
+    }
+
+a { 
+        color: white;
+	}
+
+}
